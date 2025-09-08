@@ -6,7 +6,11 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.Ashraful.batchapp.flutter_batchapp"
+=======
+    namespace = "com.Ashraful.parctice.flutter_work"
+>>>>>>> be8e462486c5ca3800a6d2a821b03948e698d493
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +25,11 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+<<<<<<< HEAD
         applicationId = "com.Ashraful.batchapp.flutter_batchapp"
+=======
+        applicationId = "com.Ashraful.parctice.flutter_work"
+>>>>>>> be8e462486c5ca3800a6d2a821b03948e698d493
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

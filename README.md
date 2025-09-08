@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # flutter_batchapp
+=======
+# flutter_work
+>>>>>>> be8e462486c5ca3800a6d2a821b03948e698d493
 
 A new Flutter project.
 

@@ -89,6 +89,7 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
+<<<<<<< HEAD
             VALUE "CompanyName", "com.Ashraful.batchapp" "\0"
             VALUE "FileDescription", "flutter_batchapp" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
@@ -96,6 +97,15 @@ BEGIN
             VALUE "LegalCopyright", "Copyright (C) 2025 com.Ashraful.batchapp. All rights reserved." "\0"
             VALUE "OriginalFilename", "flutter_batchapp.exe" "\0"
             VALUE "ProductName", "flutter_batchapp" "\0"
+=======
+            VALUE "CompanyName", "com.Ashraful.parctice" "\0"
+            VALUE "FileDescription", "flutter_work" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "flutter_work" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.Ashraful.parctice. All rights reserved." "\0"
+            VALUE "OriginalFilename", "flutter_work.exe" "\0"
+            VALUE "ProductName", "flutter_work" "\0"
+>>>>>>> be8e462486c5ca3800a6d2a821b03948e698d493
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
