@@ -1,16 +1,19 @@
-import 'package:flutter/cupertino.dart';
-<<<<<<< HEAD
-import 'batchinfoapp.dart';
+import 'package:flutter/material.dart';
+import 'contact_list_screen.dart';
 
-main ()
-{
-  runApp( batchinfoapp ());
-=======
-import 'package:flutter_work/login.dart';
-import 'MyApp.dart';
+void main() {
+  runApp(const MyApp());
+}
 
-main ()
-{
-  runApp(App());
->>>>>>> be8e462486c5ca3800a6d2a821b03948e698d493
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Contact List UI',
+      home: const ContactListScreen(),
+    );
+  }
 }
